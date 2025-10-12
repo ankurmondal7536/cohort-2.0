@@ -1,0 +1,54 @@
+@import 'section';
+@import 'hover';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#section1 {
+    @include section();
+    background-image: url(https://i.pinimg.com/736x/64/fa/11/64fa119c4f6d984091b394479c99a2a0.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#section2 {
+    @include section();  
+     background-image: url(https://i.pinimg.com/736x/64/fa/11/64fa119c4f6d984091b394479c99a2a0.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#section3 {
+    @include section();
+     background-image: url(https://i.pinimg.com/736x/64/fa/11/64fa119c4f6d984091b394479c99a2a0.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#section4 {
+    @include section();
+     background-image: url(https://i.pinimg.com/736x/64/fa/11/64fa119c4f6d984091b394479c99a2a0.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#section5 {
+    @include section();
+     background-image: url(https://i.pinimg.com/736x/64/fa/11/64fa119c4f6d984091b394479c99a2a0.jpg);
+    background-size: cover;
+    background-position: center;
+}

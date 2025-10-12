@@ -1,0 +1,7 @@
+@mixin section(){
+    height: 100%;
+    // width: 25%;
+    padding: 4px;
+    border: 8px solid black;
+    flex-grow: 1;
+}

@@ -1,86 +1,93 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html,body{
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
-#main{
-    height: 600px;
-    width: 100%;
-    /* background-color: black; */
-    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_medium.jpg);
-    background-size: cover;
-    background-position: center;
-    
+#section1 {
+  height: 100%;
+  padding: 4px;
+  border: 8px solid #111;
+  flex-grow: 1;
+  background-image: url(https://i.pinimg.com/736x/64/fa/11/64fa119c4f6d984091b394479c99a2a0.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#section1:hover{
+     flex-grow: 2;
+     transition: all linear 0.7s;
+     cursor: pointer;
+     
 }
 
-#main>#nav{
-    height: 37px;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* text-decoration: none; */
-    gap: 20px;
+#section2 {
+  height: 100%;
+  padding: 4px;
+  border: 8px solid #111;
+  flex-grow: 1;
+  background-image: url(https://i.pinimg.com/736x/97/0b/85/970b85bbff95604844913989001f1773.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-#nav>a{
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    text-transform: capitalize;
-    font-size: 15px;
-}
+#section2:hover{
+     flex-grow: 2;
+     transition: all linear 0.7s;
+     cursor: pointer;
+    }
 
-i{
-    font-size: 22px;
+#section3 {
+  height: 100%;
+  padding: 4px;
+  border: 8px solid #111;
+  flex-grow: 1;
+  background-image: url(https://i.pinimg.com/736x/5a/eb/d4/5aebd4281827d116b43900ba937d3fd7.jpg);
+  background-size: cover;
+  background-position: center;
 }
+#section3:hover{
+     flex-grow: 2;
+     transition: all linear 0.7s;
+     cursor: pointer;
+    }
 
-#middle{
-    height: 200px;
-    width: 100%;
- 
-}
 
-#middle>h1{
-    padding-top: 15px;
-    text-align: center;
-    font-size: 45px;
-    color: #fff;
-    font-weight: 575;
+#section4 {
+  height: 100%;
+  padding: 4px;
+  border: 8px solid #111;
+  flex-grow: 1;
+  background-image: url(https://i.pinimg.com/1200x/e2/ad/f9/e2adf9056d37dabfe5c586ca16755810.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#section4:hover{
+     flex-grow: 2;
+     transition: all linear 0.7s;
+     cursor: pointer;
+    }
 
-    /* margin-bottom: 10px; */
-    
+#section5 {
+  height: 100%;
+  padding: 4px;
+  border: 8px solid #111;
+  flex-grow: 1;
+   background-image: url(https://i.pinimg.com/736x/a9/7d/0b/a97d0b0077263f8c3e9e82032fa17ef7.jpg);
+  background-size: cover;
+  background-position: center;
 }
-#middle>h4{
-    color: #fff;
-    font-size: 25px;
-    text-align: center;
-    margin-bottom: 15px;
-     font-weight: 300;
-    
-}
-
-#middle>#buttons{
-    /* height: 200px; */
-    display: flex;
-    align-items: end;
-    justify-content: center;
-    gap: 30px;
-}
-
-#buttons>button{
-    width: 100px;
-    height: 30px;
-    border-color: #0077ED;
-    font-size: 17px;
-    color: #fff;
-    background-color: #0077ED;
-    border-radius: 15px;
-}
+#section5:hover{
+     flex-grow: 2;
+     transition: all linear 0.7s;
+     cursor: pointer;
+    }
